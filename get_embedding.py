@@ -8,7 +8,6 @@ from transformers import AutoFeatureExtractor, AutoModelForAudioClassification
 import torch
 import json
 
-# 사전 학습된 feature extractor와 모델을 불러옵니다.
 feature_extractor = AutoFeatureExtractor.from_pretrained(
     "jalal-elzein/distilhubert-finetuned-gtzan"
 )
